@@ -3,6 +3,8 @@ import React from 'react';
 import ShopData from './ShopData';
 import CollectionPrev from '../../components/Collection-Prev/Collection-Prev';
 
+import './Shop.scss';
+
 class ShopPage extends React.Component {
   constructor(props) {
     super(props);
