@@ -2,10 +2,10 @@ import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
 import { withRouter } from 'react-router-dom';
 
-import CustomButton from '../Custom-button/Custom-Button';
+import CustomButton from '../Custom-button/Custom-button';
 import CartItem from '../Cart-item/Cart-item';
 import { selectCartItems } from '../../redux/cart/cart.selector';
-import { toggleCartHidden } from '../../redux/cart/cart.action';
+import { toggleCartHidden } from '../../redux/cart/cart.actions';
 
 import './Cart-dropdown.scss';
 
